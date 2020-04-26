@@ -1,0 +1,36 @@
+version: '3'
+
+services:
+  db:
+    container_name: ps-mysql
+    image: mysql:5.7
+    volumes:
+       - $PWD/data:/var/lib/mysql
+    environment:
+       MYSQL_ROOT_PASSWORD: 12345678
+       MYSQL_DATABASE: ps
+       MYSQL_USER: ps
+       MYSQL_PASSWORD: ps
+    ports:
+      - "3306:3306"
+    networks:
+      - my_net
+
+  ps:
+    container_name: ps-web
+    volumes:
+      - "$PWD/html:/var/www/html"
+    depends_on:
+      - db
+    image: prestashop/prestashop
+    ports:
+      - "80:80"
+    environment:
+      DB_SERVER: db
+      DB_USER: ps
+      DB_PASSWD: ps
+      DB_NAME: ps
+    networks:
+      - my_net
+networks:
+  my_net:

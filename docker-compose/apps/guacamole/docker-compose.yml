@@ -1,0 +1,40 @@
+version: '3'
+services:
+  db:
+    container_name: guacamole-db
+    networks:
+      - net
+    image: mysql:5.7
+    volumes:
+      - $PWD/conf/initdb.sql:/docker-entrypoint-initdb.d/initdb.sql
+      - $PWD/data:/var/lib/mysql
+    env_file: .env
+  daemon:
+    container_name: guacamole-daemon
+    networks:
+      - net
+    image: guacamole/guacd
+    depends_on:
+      - db
+  web:
+    container_name: guacamole-web
+    networks:
+      - net
+    image: guacamole/guacamole
+    env_file: .env
+    depends_on:
+      - daemon
+  proxy:
+    container_name: guacamole-proxy
+    networks:
+      - net
+    image: nginx
+    ports:
+      - "80:80"
+    volumes:
+      - $PWD/conf/nginx.conf:/etc/nginx/nginx.conf
+    depends_on:
+      - web
+networks:
+  net:
+

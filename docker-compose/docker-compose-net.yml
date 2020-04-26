@@ -1,0 +1,18 @@
+version: '3'
+services:
+  web:
+    container_name: nginx2
+    ports:
+      - "8081:80"
+    image: httpd
+    networks:
+      - net-test
+  web2:
+    container_name: nginx3
+    ports:
+      - "8082:80"
+    image: httpd
+    networks:
+      - net-test
+networks:
+  net-test:

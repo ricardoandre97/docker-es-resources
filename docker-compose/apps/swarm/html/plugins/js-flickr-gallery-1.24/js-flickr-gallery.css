@@ -1,0 +1,77 @@
+@charset 'UTF-8';
+.jsfg-loader {
+    font-weight: bold;
+    position: relative;
+    top: 50%;
+    text-align: center;
+}
+
+    .jsfg-loader .animation-dots {
+        color: #797979;
+        font-size: 20px;
+    }
+
+.jsfg-modal {
+    width: auto;
+}
+
+    .jsfg-modal .modal-header .modal-image {
+        width: 560px
+    }
+
+    .jsfg-modal .modal-body {
+        max-height: none;
+        position: relative;
+    }
+    
+        .jsfg-modal .modal-body .modal-image {
+            position: relative;
+            margin: 0 auto;
+            top: 50%;
+            text-align: center;
+            cursor: pointer
+        }
+
+    .jsfg-modal.fade.in {
+        top: 50%;
+    }
+    
+    .jsfg-modal .modal-header:after   {
+        display: table;
+        line-height: 0;
+        content: "";
+        clear: both;
+    }
+    
+.hide {
+    display: none;
+}
+
+    @media (min-width:768px) {
+        .jsfg-modal .modal-body .modal-image  {
+            min-width: 560px;
+        }
+    }
+.pagination
+{
+    margin-top: 5px;
+}
+.pagination-prev,
+.pagination-next
+{
+    background: #ff4200;
+    border-radius: 0px;
+    cursor: pointer;
+    padding-top: 3px;
+    padding-bottom: 6px;
+    color: #FFFFFF;
+}
+.pagination-next
+{
+    margin-left: 5px;
+}
+.pagination-prev:hover,
+.pagination-next:hover
+{
+    background: #fd9672;
+}

@@ -1,0 +1,353 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+
+[Table of Contents]
+
+1. 1600px
+2. 1440px
+3. 1280px
+4. 1199px
+5. 1024px
+6. 991px
+7. 959px
+8. 880px
+9. 768px
+10. 767px
+11. 539px
+12. 479px
+13. 400px
+
+******************************/
+
+/************
+1. 1600px
+************/
+
+@media only screen and (max-width: 1600px)
+{
+	
+}
+
+/************
+2. 1440px
+************/
+
+@media only screen and (max-width: 1440px)
+{
+	
+}
+
+/************
+3. 1380px
+************/
+
+@media only screen and (max-width: 1380px)
+{
+	
+}
+
+/************
+3. 1280px
+************/
+
+@media only screen and (max-width: 1280px)
+{
+	.super_container
+	{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
+
+/************
+4. 1199px
+************/
+
+@media only screen and (max-width: 1199px)
+{
+	
+}
+
+/************
+4. 1100px
+************/
+
+@media only screen and (max-width: 1100px)
+{
+	
+}
+
+/************
+5. 1024px
+************/
+
+@media only screen and (max-width: 1024px)
+{
+	
+}
+
+/************
+6. 991px
+************/
+
+@media only screen and (max-width: 991px)
+{
+	h1{font-size: 48px;}
+	.main_nav
+	{
+		display: none;
+	}
+	.hamburger_container
+	{
+		display: block;
+	}
+	.discover_button
+	{
+		margin-top: 37px;
+	}
+	.home_social_container
+	{
+		right: 0;
+	}
+	.elements_loaders_container
+	{
+		margin-bottom: -60px;
+	}
+	.loader
+	{
+		margin-bottom: 60px;
+	}
+	.milestone
+	{
+		width: 100%;
+		margin-bottom: 60px;
+	}
+	.milestone:last-child
+	{
+		margin-bottom: 0px;
+	}
+	.icon_box
+	{
+		margin-bottom: 60px;
+	}
+	.icon_box:last-child
+	{
+		margin-bottom: 0px;
+	}
+}
+
+/************
+7. 959px
+************/
+
+@media only screen and (max-width: 959px)
+{
+	
+}
+
+/************
+8. 880px
+************/
+
+@media only screen and (max-width: 880px)
+{
+	
+}
+
+/************
+9. 768px
+************/
+
+@media only screen and (max-width: 768px)
+{
+	
+}
+
+/************
+10. 767px
+************/
+
+@media only screen and (max-width: 767px)
+{
+	.footer_social li
+	{
+		margin-left: 4px;
+	}
+	.footer_social li i
+	{
+		font-size: 13px;
+	}
+}
+
+/************
+11. 575px
+************/
+
+@media only screen and (max-width: 575px)
+{
+	h2{font-size:24px;}
+	p{font-size:14px;}
+	.header
+	{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.logo
+	{
+		margin-left: 4px;
+	}
+	.fs_menu_shapes
+	{
+		width: 30%;
+		bottom: 35px;
+		left: -30px;
+	}
+	.fs_menu_list li a
+	{
+		font-size: 48px;
+	}
+	.fs_menu_container
+	{
+		padding-right: 30px;
+	}
+	.fs_social_container
+	{
+		right: 20px;
+	}
+	.home_social_container
+	{
+		display: none !important;
+	}
+	.element_button
+	{
+		margin-bottom: 15px;
+	}
+	.footer
+	{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.footer_content
+	{
+		height: auto;
+	}
+	.cr p
+	{
+		font-size: 13px;
+		margin-bottom: 15px;
+	}
+}
+
+/************
+11. 539px
+************/
+
+@media only screen and (max-width: 539px)
+{
+	
+}
+
+/************
+12. 480px
+************/
+
+@media only screen and (max-width: 480px)
+{
+	
+}
+
+/************
+13. 479px
+************/
+
+@media only screen and (max-width: 479px)
+{
+	h1{font-size: 24px;}
+	h2{font-size: 16px;}
+	h3{font-size: 16px;}
+	p{font-size: 13px;}
+	.fs_menu_container.active
+	{
+		padding-top: 100px;
+	}
+	.fs_menu_list li a
+	{
+		font-size: 24px;
+	}
+	.fs_menu_list li a > span::after
+	{
+		bottom: 0px;
+		height: 2px;
+	}
+	.fs_menu_list li a span span
+	{
+		top: 0;
+		left: -2px;
+	}
+	.fs_social li
+	{
+		margin-left: 5px;
+	}
+	.main_slider_content p
+	{
+		font-size: 13px;
+	}
+	.button
+	{
+		width: 170px;
+		height: 50px;
+	}
+	.button a
+	{
+		font-size: 9px;
+		line-height: 50px;
+	}
+	.discover_button
+	{
+		margin-top: 28px;
+	}
+	.home
+	{
+		height: 266px;
+	}
+	.home_content
+	{
+		margin-top: 114px;
+	}
+	.home_content h1
+	{
+		margin-bottom: 0px;
+	}
+	.home_content span
+	{
+		font-size: 10px;
+		letter-spacing: 0.5em;
+	}
+	.header
+	{
+		height: 90px;
+	}
+	.section_title h2::before
+	{
+		bottom: 51px;
+	}
+	.icon_container
+	{
+		margin-bottom: 25px;
+	}
+	.contact_button
+	{
+		margin-top: 45px;
+	}
+}
+
+/************
+14. 400px
+************/
+
+@media only screen and (max-width: 400px)
+{
+	
+}

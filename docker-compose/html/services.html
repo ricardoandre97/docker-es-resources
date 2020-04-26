@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Zeta - Services</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Zeta Template Project - Services">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="styles/services_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/services_responsive.css">
+</head>
+
+<body>
+
+<div class="super_container">
+	
+	<!-- Header -->
+
+	<header class="header d-flex flex-row justify-content-end align-items-center">
+
+		<!-- Logo -->
+		<div class="logo_container mr-auto">
+			<div class="logo">
+				<a href="#"><span>z</span>zeta<span>.</span></a>
+			</div>
+		</div>
+
+		<!-- Main Navigation -->
+		<nav class="main_nav justify-self-end">
+			<ul class="nav_items">
+				<li><a href="index.html"><span>home</span></a></li>
+				<li class="active"><a href="#"><span>services</span></a></li>
+				<li><a href="elements.html"><span>elements</span></a></li>
+				<li><a href="blog.html"><span>blog</span></a></li>
+				<li><a href="contact.html"><span>contact</span></a></li>
+			</ul>
+		</nav>
+
+		<!-- Hamburger -->
+		<div class="hamburger_container">
+			<span class="hamburger_text">Menu</span>
+			<span class="hamburger_icon"></span>
+		</div>
+
+	</header>
+
+	<!-- Menu -->
+
+	<div class="fs_menu_overlay"></div>
+	<div class="fs_menu_container">
+		<div class="fs_menu_shapes"><img src="images/menu_shapes.png" alt=""></div>
+		<nav class="fs_menu_nav">
+			<ul class="fs_menu_list">
+				<li><a href="#"><span><span>H</span>Home</span></a></li>
+				<li><a href="#"><span><span>S</span>Services</span></a></li>
+				<li><a href="#"><span><span>E</span>Elements</span></a></li>
+				<li><a href="#"><span><span>B</span>Blog</span></a></li>
+				<li><a href="#"><span><span>C</span>Contact</span></a></li>
+			</ul>
+		</nav>
+		<div class="fs_social_container d-flex flex-row justify-content-end align-items-center">
+			<ul class="fs_social">
+				<li><a href="#"><i class="fab fa-pinterest trans_300"></i></a></li>
+				<li><a href="#"><i class="fab fa-facebook-f trans_300"></i></a></li>
+				<li><a href="#"><i class="fab fa-twitter trans_300"></i></a></li>
+				<li><a href="#"><i class="fab fa-dribbble trans_300"></i></a></li>
+				<li><a href="#"><i class="fab fa-behance trans_300"></i></a></li>
+				<li><a href="#"><i class="fab fa-linkedin-in trans_300"></i></a></li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Page Top -->
+
+	<div class="home prlx_parent">
+
+		<!-- Parallax Background -->
+		<!-- <div class="page_top_background parallax-window" data-parallax="scroll" data-speed="0.7" data-image-src="images/services_parallax.jpg"></div> -->
+		<div class="home_background prlx" style="background-image:url(images/services_parallax.jpg)"></div>
+		<div class="services_page_shapes" style="background-image:url(images/services_page_shapes.png)"></div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="home_content">
+						<h1>Services</h1>
+						<span>what we do</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- Home Social -->
+	<div class="home_social_container d-flex flex-row justify-content-end align-items-center">
+		<ul class="home_social">
+			<li><a href="#"><i class="fab fa-pinterest trans_300"></i></a></li>
+			<li><a href="#"><i class="fab fa-facebook-f trans_300"></i></a></li>
+			<li><a href="#"><i class="fab fa-twitter trans_300"></i></a></li>
+			<li><a href="#"><i class="fab fa-dribbble trans_300"></i></a></li>
+			<li><a href="#"><i class="fab fa-behance trans_300"></i></a></li>
+			<li><a href="#"><i class="fab fa-linkedin-in trans_300"></i></a></li>
+		</ul>
+	</div>	
+
+	<!-- Services -->
+
+	<div class="services">
+
+		<div class="container">
+			<div class="row">
+
+				<div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+					<div class="icon_container d-flex flex-column justify-content-end">
+						<img src="images/icon_1.svg" alt="">
+					</div>
+					<h3>modern design</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum.</p>
+				</div>
+
+				<div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+					<div class="icon_container d-flex flex-column justify-content-end">
+						<img src="images/icon_2.svg" alt="">
+					</div>
+					<h3>easy to use</h3>
+					<p>Dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum, quam tincidunt.</p>
+				</div>
+
+				<div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+					<div class="icon_container d-flex flex-column justify-content-end">
+						<img src="images/icon_3.svg" alt="">
+					</div>
+					<h3>well documented</h3>
+					<p>Adipiscing elit. Phasellus vestibulum, quam tincidunt venen atis ultrices.</p>
+				</div>
+
+				<div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+					<div class="icon_container d-flex flex-column justify-content-end">
+						<img src="images/icon_4.svg" alt="">
+					</div>
+					<h3>smart structure</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum.</p>
+				</div>
+
+				<div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+					<div class="icon_container d-flex flex-column justify-content-end">
+						<img src="images/icon_5.svg" alt="">
+					</div>
+					<h3>elements</h3>
+					<p>Dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum, quam tincidunt.</p>
+				</div>
+
+				<div class="col-lg-4 service_item text-left d-flex flex-column align-items-start justify-content-start">
+					<div class="icon_container d-flex flex-column justify-content-end">
+						<img src="images/icon_6.svg" alt="">
+					</div>
+					<h3>bold colors</h3>
+					<p>Adipiscing elit. Phasellus vestibulum, quam tincidunt venen atis ultrices.</p>
+				</div>
+
+			</div>
+
+			<div class="row">
+				<div class="col text-center">
+					<div class="button services_button">
+						<a href="services.html" class="d-flex flex-row align-items-center justify-content-center">
+							discover<img src="images/arrow_right.svg" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Cards -->
+
+	<div class="zeta_cards">
+		
+		<div class="container-fluid">
+			<div class="row">
+
+				<!-- Card Item -->
+				<div class="col-lg-4 zeta_card zeta_card_1 prlx_parent">
+					<div class="zeta_card_background prlx" style="background-image:url(images/card_1.jpg)"></div>
+					<div class="zeta_card_content">
+						<h2>smart structure</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum, quam tincidunt venenatis ultrices, est libero mattis ante, ac consectetur diam neque eget quam. Etiam feugiat augue et varius blandit. Praesent mattis, eros a sodales commodo, justo ipsum rutrum mauris, sit amet egestas metus.</p>
+						<div class="button line_button zeta_card_button">
+							<a href="#" class="d-flex flex-row align-items-center justify-content-center">discover<img src="images/arrow_right.svg" alt=""></a>
+						</div>
+					</div>
+				</div>
+
+				<!-- Card Item -->
+				<div class="col-lg-4 zeta_card zeta_card_2 prlx_parent">
+					<div class="zeta_card_background prlx" style="background-image:url(images/card_2.jpg)"></div>
+					<div class="zeta_card_content">
+						<h2>marketing</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum, quam tincidunt venenatis ultrices, est libero mattis ante, ac consectetur diam neque eget quam. Etiam feugiat augue et varius blandit. Praesent mattis, eros a sodales commodo, justo ipsum rutrum mauris, sit amet egestas metus.</p>
+						<div class="button zeta_card_button">
+							<a href="#" class="d-flex flex-row align-items-center justify-content-center">discover<img src="images/arrow_right.svg" alt=""></a>
+						</div>
+					</div>
+				</div>
+
+				<!-- Card Item -->
+				<div class="col-lg-4 zeta_card zeta_card_3 prlx_parent">
+					<div class="zeta_card_background prlx" style="background-image:url(images/card_3.jpg)"></div>
+					<div class="zeta_card_content">
+						<h2>strategy</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum, quam tincidunt venenatis ultrices, est libero mattis ante, ac consectetur diam neque eget quam. Etiam feugiat augue et varius blandit. Praesent mattis, eros a sodales commodo, justo ipsum rutrum mauris, sit amet egestas metus.</p>
+						<div class="button zeta_card_button">
+							<a href="#" class="d-flex flex-row align-items-center justify-content-center">discover<img src="images/arrow_right.svg" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- Pic Boxes -->
+
+	<div class="picture_boxes">
+		
+		<div class="container">
+			<div class="row">
+
+				<!-- Pic Box -->
+				<div class="col-lg-4 pic_box">
+					<div class="card">
+						<img src="images/pic_box_1.jpg" class="card-img-top" alt="">
+						<h3 class="card-title pic_box_title">the future</h3>
+						<p class="card-text pic_box_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum, quam tincidunt venen.</p>
+						<a href="#" class="pic_box_link">read more
+							<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+								 width="13px" height="7px" viewBox="0 0 13 7" enable-background="new 0 0 13 7" xml:space="preserve">
+							<polygon id="arrow_poly_1" class="arrow_poly" fill="#FF4200" points="13,3.5 9,0 9,3 0,3 0,4 9,4 9,7 "></polygon>
+							</svg>
+						</a>
+					</div>
+				</div>
+
+				<!-- Pic Box -->
+				<div class="col-lg-4 pic_box">
+					<div class="card">
+						<img src="images/pic_box_2.jpg" class="card-img-top" alt="">
+						<h3 class="card-title pic_box_title">investment strategy</h3>
+						<p class="card-text pic_box_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum, quam tincidunt venen.</p>
+						<a href="#" class="pic_box_link">read more
+							<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+								 width="13px" height="7px" viewBox="0 0 13 7" enable-background="new 0 0 13 7" xml:space="preserve">
+							<polygon id="arrow_poly_2" class="arrow_poly" fill="#FF4200" points="13,3.5 9,0 9,3 0,3 0,4 9,4 9,7 "></polygon>
+							</svg>
+						</a>
+					</div>
+				</div>
+
+				<!-- Pic Box -->
+				<div class="col-lg-4 pic_box">
+					<div class="card">
+						<img src="images/pic_box_3.jpg" class="card-img-top" alt="">
+						<h3 class="card-title pic_box_title">new plans</h3>
+						<p class="card-text pic_box_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum, quam tincidunt venen.</p>
+						<a href="#" class="pic_box_link">read more
+							<svg version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+								 width="13px" height="7px" viewBox="0 0 13 7" enable-background="new 0 0 13 7" xml:space="preserve">
+							<polygon id="arrow_poly_3" class="arrow_poly" fill="#FF4200" points="13,3.5 9,0 9,3 0,3 0,4 9,4 9,7 "></polygon>
+							</svg>
+						</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+	<!-- Contact -->
+
+	<div class="contact prlx_parent">
+		<!-- <div class="contact_background" style="background-image: url(images/contact_background.jpg);"></div> -->
+		<div class="contact_background prlx" style="background-image:url(images/contact_background.jpg)"></div>
+		<div class="contact_shapes"><img src="images/contact_shape.png" alt=""></div>
+		<div class="container">
+			
+			<div class="row">
+				<div class="col-lg-6 offset-lg-3 text-center section_title contact_title">
+					<h2>let's work together<span>z</span></h2>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-lg-10 offset-lg-1 text-center contact_text">
+					<p>Dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum, quam tincidunt venen atis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum, quam tincidunt venenatis ultrices, est libero mattis ante, ac consectetur diam neque eget quam.</p>
+					<div class="button contact_button">
+						<a href="contact.html" class="d-flex flex-row align-items-center justify-content-center">contact<img src="images/arrow_right.svg" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row footer_content d-flex flex-sm-row flex-column align-items-center">
+				<div class="col-sm-6 cr text-sm-left text-center">
+					<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+				</div>
+				<div class="col-sm-6 text-sm-right text-center">
+					<div class="footer_social_container">
+						<ul class="footer_social">
+							<li><a href="#"><i class="fab fa-pinterest trans_300"></i></a></li>
+							<li><a href="#"><i class="fab fa-facebook-f trans_300"></i></a></li>
+							<li><a href="#"><i class="fab fa-twitter trans_300"></i></a></li>
+							<li><a href="#"><i class="fab fa-dribbble trans_300"></i></a></li>
+							<li><a href="#"><i class="fab fa-behance trans_300"></i></a></li>
+							<li><a href="#"><i class="fab fa-linkedin-in trans_300"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/parallax.js-1.5.0/parallax.min.js"></script>
+<script src="plugins/progressbar/progressbar.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="js/services_custom.js"></script>
+</body>
+
+</html>

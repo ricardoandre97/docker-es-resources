@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web:
+    container_name: nginx2
+    ports:
+      - "8081:80"
+    volumes:
+      - "/home/ricardo/docker-compose/html:/usr/share/nginx/html"
+    image: nginx

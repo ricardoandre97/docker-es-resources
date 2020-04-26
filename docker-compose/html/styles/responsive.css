@@ -1,0 +1,488 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+
+[Table of Contents]
+
+1. 1600px
+2. 1440px
+3. 1280px
+4. 1199px
+5. 1024px
+6. 991px
+7. 959px
+8. 880px
+9. 768px
+10. 767px
+11. 539px
+12. 479px
+13. 400px
+
+******************************/
+
+
+@media only screen and (max-width: 1600px)
+{
+	
+}
+
+/************
+2. 1440px
+************/
+
+@media only screen and (max-width: 1440px)
+{
+	.main_slider_nav_left
+	{
+		top: auto;
+		left: auto;
+		right: 79px;
+		bottom: 14px;
+		-webkit-transform: transform: none;
+		-moz-transform: transform: none;
+		-ms-transform: transform: none;
+		-o-transform: transform: none;
+		transform: none;
+	}
+	.main_slider_nav_right
+	{
+		top: auto;
+		left: auto;
+		right: 39px;
+		bottom: 14px;
+		-webkit-transform: transform: none;
+		-moz-transform: transform: none;
+		-ms-transform: transform: none;
+		-o-transform: transform: none;
+		transform: none;
+	}
+	.main_slider_shapes
+	{
+		right: 10%;
+	}
+}
+
+/************
+3. 1380px
+************/
+
+@media only screen and (max-width: 1380px)
+{
+	
+}
+
+/************
+3. 1280px
+************/
+
+@media only screen and (max-width: 1280px)
+{
+	.super_container
+	{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.main_slider_shapes
+	{
+		right: 5%;
+	}
+}
+
+/************
+4. 1199px
+************/
+
+@media only screen and (max-width: 1199px)
+{
+	
+}
+
+/************
+4. 1100px
+************/
+
+@media only screen and (max-width: 1100px)
+{
+	.test_slider_nav_left
+	{
+		left: 15px;
+	}
+	.test_slider_nav_right
+	{
+		right: 15px;
+	}
+}
+
+/************
+5. 1024px
+************/
+
+@media only screen and (max-width: 1024px)
+{
+	
+}
+
+/************
+6. 991px
+************/
+
+@media only screen and (max-width: 991px)
+{
+	h1{font-size: 48px;}
+	.main_nav
+	{
+		display: none;
+	}
+	.main_slider_shapes
+	{
+		display: none;
+	}
+	.hamburger_container
+	{
+		display: block;
+	}
+	.discover_button
+	{
+		margin-top: 37px;
+	}
+	.home_social_container
+	{
+		right: 0;
+	}
+	.hero_slider_container
+	{
+		height: calc(100vh - 110px);
+	}
+	.features_col
+	{
+		padding-bottom: 0px;
+	}
+	.features_col:last-child
+	{
+		padding-bottom: 120px;
+	}
+	.about_text
+	{
+		padding-right: 0px;
+	}
+	.skills_container
+	{
+		margin-top: 50px;
+	}
+	.test_slider_nav_left
+	{
+		left: -48px;
+	}
+	.test_slider_nav_right
+	{
+		right: -48px;
+	}
+	.service_item
+	{
+		margin-bottom: 50px;
+	}
+	.service_item h3
+	{
+		margin-bottom: 15px;
+	}
+	.icon_container
+	{
+		margin-bottom: 30px;
+	}
+	.services_button
+	{
+		margin-top: 40px;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+}
+
+/************
+7. 959px
+************/
+
+@media only screen and (max-width: 959px)
+{
+	
+}
+
+/************
+8. 880px
+************/
+
+@media only screen and (max-width: 880px)
+{
+	
+}
+
+/************
+9. 768px
+************/
+
+@media only screen and (max-width: 768px)
+{
+	
+}
+
+/************
+10. 767px
+************/
+
+@media only screen and (max-width: 767px)
+{
+	.main_slider_content
+	{
+		width: 100%;
+	}
+	.main_slider_nav
+	{
+		display: none;
+	}
+	.test_slider_nav
+	{
+		display: none !important;
+	}
+	.testimonials_content
+	{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.footer_social li
+	{
+		margin-left: 4px;
+	}
+	.footer_social li i
+	{
+		font-size: 13px;
+	}
+}
+
+/************
+11. 575px
+************/
+
+@media only screen and (max-width: 575px)
+{
+	h2{font-size:24px;}
+	p{font-size:14px;}
+	.header
+	{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.logo
+	{
+		margin-left: 4px;
+	}
+	.fs_menu_shapes
+	{
+		width: 30%;
+		bottom: 35px;
+		left: -30px;
+	}
+	.fs_menu_list li a
+	{
+		font-size: 48px;
+	}
+	.fs_menu_container
+	{
+		padding-right: 30px;
+	}
+	.fs_social_container
+	{
+		right: 20px;
+	}
+	.home_social_container
+	{
+		display: none !important;
+	}
+	.footer
+	{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.footer_content
+	{
+		height: auto;
+	}
+	.cr p
+	{
+		font-size: 13px;
+		margin-bottom: 15px;
+	}
+}
+
+/************
+11. 539px
+************/
+
+@media only screen and (max-width: 539px)
+{
+	
+}
+
+/************
+12. 480px
+************/
+
+@media only screen and (max-width: 480px)
+{
+	
+}
+
+/************
+13. 479px
+************/
+
+@media only screen and (max-width: 479px)
+{
+	h1{font-size: 24px;}
+	h2{font-size: 16px;}
+	h3{font-size: 16px;}
+	p{font-size: 13px;}
+	.fs_menu_container.active
+	{
+		padding-top: 100px;
+	}
+	.fs_menu_list li a
+	{
+		font-size: 24px;
+	}
+	.fs_menu_list li a > span::after
+	{
+		bottom: 0px;
+		height: 2px;
+	}
+	.fs_menu_list li a span span
+	{
+		top: 0;
+		left: -2px;
+	}
+	.fs_social li
+	{
+		margin-left: 5px;
+	}
+	.main_slider_content p
+	{
+		font-size: 13px;
+	}
+	.button
+	{
+		width: 170px;
+		height: 50px;
+	}
+	.button a
+	{
+		font-size: 9px;
+		line-height: 50px;
+	}
+	.discover_button
+	{
+		margin-top: 28px;
+	}
+	.header
+	{
+		height: 90px;
+	}
+	.hero_slider_container
+	{
+		margin-top: 90px;
+		height: calc(100vh - 90px);
+	}
+	.main_slider_dots
+	{
+		display: none;
+	}
+	.main_slider_content
+	{
+		position: absolute;
+		top: 50%;
+		left: 15px;
+		height: auto;
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+		transform: translateY(-50%);
+		margin-top: 0px;
+	}
+	.slider_content_col
+	{
+		height: calc(100vh - 90px);
+	}
+	.features
+	{
+		padding-top: 120px;
+		padding-bottom: 120px;
+	}
+	.features_col
+	{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		margin-bottom: 60px;
+	}
+	.features_col:last-child
+	{
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+	}
+	.features_item p
+	{
+		margin-top: 18px;
+	}
+	.features_item img
+	{
+		margin-bottom: 30px;
+	}
+	.about
+	{
+		padding-top: 165px;
+	}
+	.about_shapes img
+	{
+		width: 70%;
+	}
+	.section_title h2::before
+	{
+		bottom: 51px;
+	}
+	.service_item
+	{
+		margin-bottom: 40px;
+	}
+	.icon_container
+	{
+		margin-bottom: 25px;
+	}
+	.service_item h3
+	{
+		margin-bottom: 10px;
+	}
+	.services_button
+	{
+		margin-top: 30px;
+	}
+	.services_shapes
+	{
+		top: 0;
+		text-align: right;
+	}
+	.services_shapes img
+	{
+		width: 70%;
+	}
+	.contact_button
+	{
+		margin-top: 45px;
+	}
+}
+
+/************
+14. 400px
+************/
+
+@media only screen and (max-width: 400px)
+{
+	
+}
