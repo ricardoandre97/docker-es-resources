@@ -33,7 +33,7 @@
         "magnific-popup": "^1.1.0"
     },
     "devDependencies": {
-        "browser-sync": "2.24.3",
+        "browser-sync": "2.27.10",
         "gulp": "^3.9.1",
         "gulp-clean-css": "3.9.4",
         "gulp-filter": "5.1.0",
