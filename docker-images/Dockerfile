@@ -1,4 +1,7 @@
-FROM httpd
+FROM fedora:41
 
-CMD sleep 10 
+RUN yum -y install httpd
 
+COPY beryllium /var/www/html
+
+CMD httpd -D FOREGROUND
